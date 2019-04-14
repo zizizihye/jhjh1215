@@ -1,12 +1,17 @@
 
   body{
+
+    background-image: url("images/back2.png");
+    margin-top:150px;
+    text-align: center;
     font-family:"-윤디자인웹돋움"
     font-size:20px;
-    width:1500px;height:500px;
-    background-image: url(images/back2.png);
     background-repeat:no-repeat;
   }
 
+  .category{
+    text-align: center;
+  }
 
     a{
       color:black;
@@ -23,13 +28,13 @@
       width: 100px;
       margin:0;
       padding:30px;
-      font-family: "A옛날사진관4"
+      font-family:"A옛날사진관4"
     }
 
 
     #grid{
       display:grid;
-      grid-template-columns: 150px 1fr;
+      grid-template-rows: 150px 1fr;
     }
 
     #grid ol{
@@ -39,6 +44,7 @@
     #article{
       padding-top:25px;
       padding-left:25px;
+
     }
 
     #trip{
@@ -64,24 +70,16 @@
       font-size:10px;
     }
 
-    #main {
-      padding: 2em;
+    .columns {
+      position: relative;
+      -moz-column-count: 4;
+      -webkit-column-count: 4;
+      column-count: 4;
+      -moz-column-gap: 1em;
+      -webkit-column-gap:1em;
+      column-gap: 1em;
     }
 
-      #main .inner {
-        max-width: 100%;
-      }
-
-      	.columns {
-      		position: relative;
-      		-moz-column-count: 4;
-      		-webkit-column-count: 4;
-      		column-count: 4;
-      		-moz-column-gap: 1em;
-      		-webkit-column-gap: 1em;
-      		column-gap: 1em;
-      	}
-        
 /**
       		.columns .image {
       			position: relative;
